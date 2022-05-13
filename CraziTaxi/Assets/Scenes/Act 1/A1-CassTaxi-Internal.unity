@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -179,7 +179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100130, guid: f0783dff9be367d46b12b1755fc86c6c, type: 3}
       propertyPath: m_Name
-      value: CivilianVehicle05
+      value: CassTaxi
       objectReference: {fileID: 0}
     - target: {fileID: 100132, guid: f0783dff9be367d46b12b1755fc86c6c, type: 3}
       propertyPath: m_IsActive
@@ -1087,7 +1087,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081443803}
-  m_LocalRotation: {x: 0.16515912, y: -0.6554982, z: 0.7216713, w: 0.15000907}
+  m_LocalRotation: {x: 0.16513704, y: -0.6554105, z: 0.7215748, w: 0.14998901}
   m_LocalPosition: {x: 20.364796, y: 12.25, z: 77.82859}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
