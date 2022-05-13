@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: UniversalRenderPipelineAsset_Renderer
   m_EditorClassIdentifier: 
   m_RendererFeatures:
-  - {fileID: 2482279313661856288}
-  m_RendererFeatureMap: 208a1d54e2d37222
+  - {fileID: 7672011155125957938}
+  m_RendererFeatureMap: 32f51d5e7f75786a
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -43,7 +43,7 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
---- !u!114 &2482279313661856288
+--- !u!114 &7672011155125957938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd37d03d18ee9584d881763c34816b35, type: 3}
-  m_Name: NewOutlineFeature
+  m_Name: Outline
   m_EditorClassIdentifier: 
   m_Active: 1
   _outlineResources: {fileID: 11400000, guid: 231d88937a104094b8e4e0fdb8d2e77b, type: 2}
@@ -61,14 +61,14 @@ MonoBehaviour:
   _outlineSettings:
     _outlineSettings: {fileID: 0}
     _outlineColor: {r: 0, g: 0, b: 0, a: 1}
-    _outlineWidth: 3
+    _outlineWidth: 2
     _outlineIntensity: 2
     _outlineAlphaCutoff: 0.9
-    _outlineMode: 2
+    _outlineMode: 0
     _filterMode: 1
     _layerMask:
       serializedVersion: 2
       m_Bits: 64
     _renderingLayerMask: 1
-  _renderPassEvent: 400
+  _renderPassEvent: 300
   _shaderPassNames: []
