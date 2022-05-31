@@ -6,6 +6,9 @@ ModelImporter:
   - first:
       74: -120763725934863675
     second: Male Bones|WalkCycle
+  - first:
+      74: 7755678589612587851
+    second: Male Bones|Stand
   externalObjects: {}
   materials:
     materialImportMode: 2
