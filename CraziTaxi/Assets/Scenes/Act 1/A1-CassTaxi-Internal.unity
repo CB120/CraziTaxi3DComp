@@ -1815,6 +1815,8 @@ PlayableDirector:
     value: {fileID: 857524376}
   - key: {fileID: -6039615811357294809, guid: 5b2296f93c1ec234cb314ab26713d092, type: 2}
     value: {fileID: 857524372}
+  - key: {fileID: 1205919638333102815, guid: 5b2296f93c1ec234cb314ab26713d092, type: 2}
+    value: {fileID: 479429429}
   m_ExposedReferences:
     m_References:
     - d28c5a0175ec6f64292ca67d649bc402: {fileID: 1551771292}
@@ -3051,6 +3053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479429428}
   - component: {fileID: 479429427}
+  - component: {fileID: 479429429}
   m_Layer: 0
   m_Name: Cam8-OutsideCar
   m_TagString: Untagged
@@ -3101,13 +3104,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479429426}
   m_LocalRotation: {x: -0.05486643, y: 0.9449747, z: -0.23678751, w: -0.21896166}
-  m_LocalPosition: {x: 19.27552, y: 1.262, z: 85.15545}
+  m_LocalPosition: {x: 19.27552, y: 1.262, z: 85.119}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 980825335}
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &479429429
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479429426}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &479883732 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 116448, guid: bd428ed7f76466742916f85241c6bf17, type: 3}
